@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova 8</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Conversor de Unidades de Comprimento</h1>
+    <div id="container">
+    <label for="metros">Metros:</label>
+    <input type="number" id="metros" placeholder="Digite a distância em metros">
+
+    <label for="unidade">Converter para:</label>
+    <select id="unidade">
+        <option value="jardas">Jardas</option>
+        <option value="pes">Pés</option>
+        <option value="polegadas">Polegadas</option>
+        <option value="milhas">Milhas</option>
+    </select>
+
+    <button onclick="converter()">Converter</button>
+
+    <h2>Resultado: <span id="resultado"></span></h2>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
